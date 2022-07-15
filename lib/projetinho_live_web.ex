@@ -21,7 +21,7 @@ defmodule ProjetinhoLiveWeb do
     quote do
       use Phoenix.Controller, namespace: ProjetinhoLiveWeb
 
-      import Plug.Conn
+                    import Plug.Conn
       import ProjetinhoLiveWeb.Gettext
       alias ProjetinhoLiveWeb.Router.Helpers, as: Routes
     end
